@@ -1,0 +1,25 @@
+{
+  "name": "entel-node-js-luis",
+  "version": "0.0.0",
+  "description": "EntelNodeJsLuis",
+  "main": "app.js",
+  "author": "VCA",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "1.15.0",
+    "cfenv": "1.0.x",
+    "express": "4.13.4",
+    "fb-messenger": "^1.1.0",
+    "htmlparser": "1.7.7",
+    "request": "2.72.0",
+    "watson-developer-cloud": "2.0.1",
+    "deasync": "0.1.10"
+  },
+  "repository": {},
+  "engines": {
+    "node": "4.x"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,26 @@
+.. TENTEL-VCA
+
+curl -X POST -H "Content-Type: application/json" -d '{   "persistent_menu":[     {       "locale":"default",      "composer_input_disabled":false,      "call_to_actions":[        {          "title":"Menu Principal",          "type":"postback",	      "payload":"hola"     },        {          "title":"Cerrar Sesion",          "type":"postback",          "payload":"rellamado"         }      ]    },    {      "locale":"zh_CN",      "composer_input_disabled":false    }  ] }' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAATHeBZAgQhsBANxlZC5knMEhBrGYfK2nonRKTdW6eZArZC1PnOxP2mfYwAvN02htBhQnBQZADFrdG6VmyZCnhHXrbFWbDhgUxuMfdX5aUlAzaZCmC6CHORAbDXFQOfg0poLvU3V9ceUpEpouhbuD0TbnwZCod7X5OZCphvd8JvCBZBxiLmZB8jMbLC"
+
+
+
+curl -X POST -H "Content-Type: application/json" -d '{   "get_started":{     "payload":"hola"   } }' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAATHeBZAgQhsBANxlZC5knMEhBrGYfK2nonRKTdW6eZArZC1PnOxP2mfYwAvN02htBhQnBQZADFrdG6VmyZCnhHXrbFWbDhgUxuMfdX5aUlAzaZCmC6CHORAbDXFQOfg0poLvU3V9ceUpEpouhbuD0TbnwZCod7X5OZCphvd8JvCBZBxiLmZB8jMbLC"   
+
+
+curl -X GET "https://graph.facebook.com/v2.6/me/messenger_profile?fields=persistent_menu&access_token=EAATHeBZAgQhsBANxlZC5knMEhBrGYfK2nonRKTdW6eZArZC1PnOxP2mfYwAvN02htBhQnBQZADFrdG6VmyZCnhHXrbFWbDhgUxuMfdX5aUlAzaZCmC6CHORAbDXFQOfg0poLvU3V9ceUpEpouhbuD0TbnwZCod7X5OZCphvd8JvCBZBxiLmZB8jMbLC"     
+
+
+
+
+
+
+VCADemoEntelFB-LC
+
+
+curl -X POST -H "Content-Type: application/json" -d '{   "persistent_menu":[     {       "locale":"default",      "composer_input_disabled":false,      "call_to_actions":[        {          "title":"Menu Principal",          "type":"postback",	      "payload":"hola"     },        {          "title":"Cerrar Sesion",          "type":"postback",          "payload":"rellamado"         }      ]    },    {      "locale":"zh_CN",      "composer_input_disabled":false    }  ] }' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAbWwHSM2tsBAPe5d91cOzjU27hZB341jrxcrV6kyYVG8OQcIDYdSqcqnpRldS2JBaNcAnnyPlgpyddesv4P25jfAVsZAoU0uhfD007O2HoWdujzyOdLNPcU21IKMLT5EOSCeZBMDukeMHohKDK0cZA4UfZAooLVDFOjTTqmZAjC3MGQHd7o7p"
+
+
+curl -X POST -H "Content-Type: application/json" -d '{   "get_started":{     "payload":"hola"   } }' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAbWwHSM2tsBAPe5d91cOzjU27hZB341jrxcrV6kyYVG8OQcIDYdSqcqnpRldS2JBaNcAnnyPlgpyddesv4P25jfAVsZAoU0uhfD007O2HoWdujzyOdLNPcU21IKMLT5EOSCeZBMDukeMHohKDK0cZA4UfZAooLVDFOjTTqmZAjC3MGQHd7o7p"   
+
+
+curl -X GET "https://graph.facebook.com/v2.6/me/messenger_profile?fields=persistent_menu&access_token=EAAbWwHSM2tsBAPe5d91cOzjU27hZB341jrxcrV6kyYVG8OQcIDYdSqcqnpRldS2JBaNcAnnyPlgpyddesv4P25jfAVsZAoU0uhfD007O2HoWdujzyOdLNPcU21IKMLT5EOSCeZBMDukeMHohKDK0cZA4UfZAooLVDFOjTTqmZAjC3MGQHd7o7p"   
